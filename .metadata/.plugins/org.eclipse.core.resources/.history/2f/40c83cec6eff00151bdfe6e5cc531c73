@@ -99,7 +99,7 @@ public class Calculadora {
 				resultado= a*b;
 				break;
 			case '%':
-				resultado= (a*b)/100;
+				resultado= a%b;
 				break;
 			}
 			// RECURSIVIDAD
