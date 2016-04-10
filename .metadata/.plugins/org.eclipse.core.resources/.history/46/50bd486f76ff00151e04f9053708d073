@@ -101,9 +101,6 @@ public class Calculadora {
 			case '/':
 				resultado= b/a;
 				break;
-			case '%':
-				resultado= (a*b)/100;
-				break;
 			}
 			// RECURSIVIDAD
 			return calcular(calc, resultado, i + 1);
@@ -136,7 +133,7 @@ public class Calculadora {
 	}
 
 	public boolean esOper(char c) {
-		if (c == '+' || c == '-'|| c == '/'|| c == '*'|| c == '%') {
+		if (c == '+' || c == '-'|| c == '/'|| c == '*') {
 			return true;
 		}
 
