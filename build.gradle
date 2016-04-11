@@ -1,0 +1,14 @@
+//le digo que use plugins de java para construirlos
+apply plugin: 'java'
+
+//le digo de donde va a bajar dependencias que necesite
+repositories {
+    mavenCentral()
+}
+//le digo que dependencias necesita, en nuestro caso los Junit para los Tests
+dependencies {
+    testCompile 'junit:junit:4.10'
+}
+
+
+
