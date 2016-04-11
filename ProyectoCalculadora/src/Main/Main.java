@@ -56,8 +56,8 @@ public class Main {
 		frame.getContentPane().add(calcular);
 		calcular.setColumns(10);
 		
-		JButton button = new JButton("=");
-		button.addActionListener(new ActionListener() {
+		//JButton button = new JButton("=");
+		/*button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				if(!calc.esValido(calcular.getText())){
 					resultado.setText("Sintaxis Incorrecta");
@@ -72,14 +72,29 @@ public class Main {
 		});
 		button.setBounds(279, 184, 89, 23);
 		frame.getContentPane().add(button);
-		
+		*/
 		resultado = new JTextField();
 		resultado.setBorder(null);
 		resultado.setEditable(false);
 		resultado.setBounds(279, 34, 128, 20);
 		frame.getContentPane().add(resultado);
 		resultado.setColumns(10);
-		
+		calcular.addActionListener(new ActionListener(){
+			 public void actionPerformed(ActionEvent e) {
+				 if(!calc.esValido(calcular.getText())){
+						resultado.setText("Sintaxis Incorrecta");
+					}else{
+					calc.reiniciar();
+					calc.guardar(calcular.getText(),0);
+					String res = calc.calcular(calcular.getText(),0,0);
+					
+					resultado.setText(res);
+					}
+				
+				     }
+
+			
+		});
 		
 		
 	}
