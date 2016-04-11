@@ -1,0 +1,28 @@
+v1.2.0
+Fecha: 2016/04/10 
+Autor: <Fabian.Wolffmann> 
+Modulo: Central
+Estado: Terminado
+Caracteristicas Añadidas: 
+<Se agrego operacion de porcentaje>
+Comentario: Ninguno
+
+v1.1.0
+Fecha: 2016/04/10 
+Autor: <Fabian.Wolffmann> 
+Modulo: Central
+Estado: Terminado
+Caracteristicas Añadidas:
+<Se agrego multiplicacion> 
+Comentario: Ninguno
+
+v1.0.0
+Fecha: 2016/04/10 
+Autor: <Nico.Passaglia> 
+Modulo: Central
+Estado: Terminado
+Caracteristicas Añadidas:
+<Se agrego suma> 
+<Se agrego resta>
+<Se agrego interfaz grafico>
+Comentario: Ninguno

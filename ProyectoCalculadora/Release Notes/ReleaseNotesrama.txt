@@ -1,0 +1,19 @@
+v2.1.0
+Fecha: 2016/04/10 
+Autor: <Fabian.Wolffmann> 
+Modulo: Central
+Estado: Terminado
+Caracteristicas Añadidas: 
+<Se agrego operacion de porcentaje>
+Comentario: Ninguno
+
+v2.0.0
+Fecha: 2016/04/10 
+Autor: <Fabian.Wolffmann> 
+mergedfrom: <master>
+Modulo: Central
+Estado: Terminado
+Caracteristicas Añadidas:
+<Se agrego multiplicacion> 
+<Se agrego division>
+Comentario: Ninguno

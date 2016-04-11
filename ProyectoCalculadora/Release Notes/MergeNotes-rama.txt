@@ -1,0 +1,9 @@
+2016-04-10 (<FabianWolffmann>) Merge from master-v1.0.0 to rama
+End tag: None
+Start tag on branch was merge-from-master-v1.0.0 
+
+
+Caracteristicas Añadidas:
+<Suma> 
+<Resta>
+<Interfaz Grafica>
