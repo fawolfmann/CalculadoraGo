@@ -6,9 +6,9 @@ repositories {
     mavenCentral()
 }
 //le digo que dependencias necesita, en nuestro caso los Junit para los Tests
-//dependencies {
-//    testCompile 'junit:junit:4.10'
-//}
+dependencies {
+    testCompile 'junit:junit:4.10'
+}
 
 
 

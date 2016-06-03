@@ -4,7 +4,6 @@ language: java
 #pones el jdk que uses vos en eclipse, guarda con poner varios pq aveces no los compila
 jdk:
   - oraclejdk7
-
 #le decis que vea el gradle y ahi abre el gradle.build
 gradle check
 ./gradlew check
