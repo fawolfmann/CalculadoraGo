@@ -6,6 +6,7 @@ jdk:
   - oraclejdk7
 
 #le decis que vea el gradle y ahi abre el gradle.build
-gradle check
-./gradlew check
+script: gradle check
+
+gradlew: ./gradlew check
 
